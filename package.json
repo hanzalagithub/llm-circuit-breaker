@@ -1,6 +1,6 @@
 {
   "name": "llm-circuit-breaker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A robust wrapper for LLM API calls that implements the circuit breaker pattern with retry logic and exponential backoff",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
