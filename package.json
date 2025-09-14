@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmed-hanzala/llm-circuit-breaker.git"
+    "url": "https://github.com/hanzalagithub/llm-circuit-breaker.git"
   },
-  "homepage": "https://github.com/ahmed-hanzala/llm-circuit-breaker#readme",
+  "homepage": "https://github.com/hanzalagithub/llm-circuit-breaker#readme",
   "bugs": {
-    "url": "https://github.com/ahmed-hanzala/llm-circuit-breaker/issues"
+    "url": "https://github.com/hanzalagithub/llm-circuit-breaker/issues"
   },
   "keywords": [
     "llm",
