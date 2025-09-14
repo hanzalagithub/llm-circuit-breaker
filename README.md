@@ -135,6 +135,14 @@ const response = await anthropicCircuitBreaker.call({
 - **OPEN**: Circuit is open, requests fail immediately
 - **HALF_OPEN**: Testing if the service has recovered
 
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
+
+## Code of Conduct
+
+This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [INSERT CONTACT METHOD].
+
 ## License
 
-MIT © Ahmed Hanzala
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
