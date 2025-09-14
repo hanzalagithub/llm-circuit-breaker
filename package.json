@@ -1,0 +1,52 @@
+{
+  "name": "llm-circuit-breaker",
+  "version": "1.0.0",
+  "description": "A robust wrapper for LLM API calls that implements the circuit breaker pattern with retry logic and exponential backoff",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmed-hanzala/llm-circuit-breaker.git"
+  },
+  "homepage": "https://github.com/ahmed-hanzala/llm-circuit-breaker#readme",
+  "bugs": {
+    "url": "https://github.com/ahmed-hanzala/llm-circuit-breaker/issues"
+  },
+  "keywords": [
+    "llm",
+    "circuit-breaker",
+    "api",
+    "openai",
+    "anthropic",
+    "retry",
+    "exponential-backoff",
+    "resilience",
+    "fault-tolerance",
+    "typescript"
+  ],
+  "author": "Ahmed Hanzala",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "axios-mock-adapter": "^2.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.0.0"
+  }
+}
